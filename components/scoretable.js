@@ -140,7 +140,7 @@ export default function ScoreTable({ names, gameData, setGameData, rounds, setRo
                 >
                     <Box sx={modalStyle} component="form" onSubmit={handleFormSubmit}>
                         <Stack spacing={2}>
-                            <Typography>{indexChoice.name}'s round {indexChoice.index + 1} data</Typography>
+                            <Typography>{indexChoice.name}&apos;s round {indexChoice.index + 1} data</Typography>
                             <TextField
                                 label="Predicted"
                                 type="number"
